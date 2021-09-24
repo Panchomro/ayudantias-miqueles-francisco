@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <title>Ayudantia 3</title>
-        <link href="estilo.css" rel="stylesheet"/>
+        <link type="text/css" href="estilo.css" rel="stylesheet"/>
+        <script type="text/javascript" src="jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="aplication.js"></script>
     </head>
 
     <body>
@@ -17,25 +19,24 @@
             </nav>
         </header>
         
-        <div id="cabecera">
-            <h1 class="titulos">Mis canciones favoritas</h1>
+        <div id="titulo">
+            <h1 >Mis canciones favoritas</h1>
         </div>
 
-        <div>
-            <p class="parrafo1">Foto del disco de The beginning - One Ok Rock:</p>
-        </div>
+        <p class="disco" id="ONEOKROCK">Foto del disco de The beginning - One Ok Rock:</p>
 
-        <div>
-            <p class="div">ONE OK ROCK es una banda japonesa de rock formada en el año 2005, actualmente compuesta por cuatro miembros, Takahiro Morita (vocalista), Tōru Yamashita (guitarra), Ryōta Kohama (bajo) y Tomoya Kanki (batería).</p>
+        <div class="caja" id="caja1"> 
+            <p class="descripcion" id="d1">ONE OK ROCK es una banda japonesa de rock formada en el año 2005, actualmente compuesta por cuatro miembros, Takahiro Morita (vocalista), Tōru Yamashita (guitarra), Ryōta Kohama (bajo) y Tomoya Kanki (batería).</p>
+            <input class="boton1" id="btn1" type="submit" name="boton1" value="Esconder">
             <img src="https://1.bp.blogspot.com/--u0yEQCWjDc/XQgITt_XS9I/AAAAAAAAACk/FeskhBm2MaU7LqGG_jIWoQQIbciRjtiuQCEwYBhgL/s1600/clock.jpg" width="400" alt="Foto disco One Ok Rock"/>
         </div>
         <hr/>
 
-        <div>
-            <p class="parrafo1">Foto del disco de On my own - Ashes Remain:</p>
-        </div>
-        <div>
-            <p class="div">Ashes Remain es una banda de rock proveniente de Maryland, Estados Unidos. Está compuesta por el vocalista Josh Smith, los guitarristas Rob Tahan y Ryan Nalepa, el bajista Jon Hively y el baterista Ben Kirk.</p>
+        <p class="disco" id="Ashes">Foto del disco de On my own - Ashes Remain:</p>
+        
+        <div class="caja" id="caja2">
+            <p class="descripcion" id="d2">Ashes Remain es una banda de rock proveniente de Maryland, Estados Unidos. Está compuesta por el vocalista Josh Smith, los guitarristas Rob Tahan y Ryan Nalepa, el bajista Jon Hively y el baterista Ben Kirk.</p>
+            <input class="boton2" id="btn2" type="submit" name="boton2" value="Cambiar texto">
             <img src="https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/e/d/4/a/338741395175947.jpg" width="400" alt="Foto disco Ashes Remain"/>
         </div>
     </body>
